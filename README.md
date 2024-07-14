@@ -47,7 +47,7 @@ This is a simple calculator API built using Eclipse Vert.x. It supports basic ar
 
 2. Run the application:
    ```bash
-   java -cp target/vertx-calculator-api-1.0-SNAPSHOT.jar com.example.CalculatorVerticle`
+   java -cp target/vertx-calculator-api-1.0-SNAPSHOT.jar com.example.CalculatorVerticle
 
 3. The server will start on port 8888.
 
