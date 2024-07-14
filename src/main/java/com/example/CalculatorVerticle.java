@@ -9,7 +9,7 @@ import io.vertx.core.Vertx;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
 
-public class MainVerticle extends AbstractVerticle {
+public class CalculatorVerticle extends AbstractVerticle {
 
     @Override
     public void start() {
@@ -34,6 +34,6 @@ public class MainVerticle extends AbstractVerticle {
 
     public static void main(String[] args) {
         Vertx vertx = Vertx.vertx();
-        vertx.deployVerticle(new MainVerticle());
+        vertx.deployVerticle(new CalculatorVerticle());
     }
 }

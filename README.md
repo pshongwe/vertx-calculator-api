@@ -47,8 +47,7 @@ This is a simple calculator API built using Eclipse Vert.x. It supports basic ar
 
 2. Run the application:
    ```bash
-   java -cp target/vertx-calculator-api-1.0-SNAPSHOT.jar com.example.MainVerticle
-   ```
+   java -cp target/vertx-calculator-api-1.0-SNAPSHOT.jar com.example.CalculatorVerticle`
 
 3. The server will start on port 8888.
 
@@ -142,14 +141,12 @@ vertx-calculator-api/
 │   │   ├── java/
 │   │   │   └── com/
 │   │   │       └── example/
-│   │   │           ├── verticles/
-│   │   │           │   └── CalculatorVerticle.java
 │   │   │           ├── handlers/
 │   │   │           │   ├── AddHandler.java
 │   │   │           │   ├── SubtractHandler.java
 │   │   │           │   ├── MultiplyHandler.java
 │   │   │           │   └── DivideHandler.java
-│   │   │           └── MainVerticle.java
+│   │   │           └── CalculatorVerticle.java
 │   │   ├── resources/
 │   │   │   └── config/
 │   │   │       └── config.json
